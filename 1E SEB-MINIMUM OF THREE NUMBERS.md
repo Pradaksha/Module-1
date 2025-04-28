@@ -1,34 +1,45 @@
-# Experiment No: 1e – SEB-Minimum of Three Numbers
+# Experiment No: 1e – SEB-write a python program to  implement expression using  bitwise and , or, not, ex-or, right shift and left shift operator. Read the values from the user.
 
 ## AIM  
-To write a Python program to find the minimum between three integer numbers using a conditional expression (Ternary operator).
+To write a Python program to implement expressions using bitwise operators: AND (&), OR (|), NOT (~), XOR (^), Right Shift (>>), and Left Shift (<<), with values read from the user.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Read the three numbers: `num1`, `num2`, and `num3` from the user.  
-3. Compare `num1`, `num2`, and `num3` to find the smallest number:  
-   - If `num1` is less than or equal to both `num2` and `num3`, then `num1` is the minimum.  
-   - Else, if `num2` is less than or equal to both `num1` and `num3`, then `num2` is the minimum.  
-   - Otherwise, `num3` is the minimum.  
-4. Print the minimum value along with the input numbers in the format:  
-   `"The minimum of num1, num2, num3 is min_num."`  
-5. Terminate the program.
+Start the program.
+Read two integer values from the user.
+Perform the following bitwise operations:
+Bitwise AND
+Bitwise OR
+Bitwise NOT (for both numbers)
+Bitwise XOR
+Right shift the first number by 1
+Left shift the second number by 1
+Display all the results.
+End the program.
 
 ## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+# Reg.No-212223020020
+# Name-Pradaksha V
+a=int(input())
+b=int(input())
+bitwise_and = num1 & num2
+bitwise_or = num1 | num2
+bitwise_not_num1 = ~num1
+bitwise_not_num2 = ~num2
+bitwise_xor = num1 ^ num2
+right_shift = num1 >> 1
+left_shift = num2 << 1
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
 
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
-```
+print("Bitwise AND of num1 and num2:", bitwise_and)
+print("Bitwise OR of num1 and num2:", bitwise_or)
+print("Bitwise NOT of num1:", bitwise_not_num1)
+print("Bitwise NOT of num2:", bitwise_not_num2)
+print("Bitwise XOR of num1 and num2:", bitwise_xor)
+print("Right shift num1 by 1 position:", right_shift)
+print("Left shift num2 by 1 position:", left_shift)
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/484a3525-aa39-409f-bff9-d52a2cd5d250)
 
 ## RESULT
+Thus, the Python program to perform bitwise operations (AND, OR, NOT, XOR, right shift, left shift) was successfully executed.
