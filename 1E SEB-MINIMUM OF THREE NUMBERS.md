@@ -20,24 +20,18 @@ End the program.
 ```python
 # Reg.No-212223020020
 # Name-Pradaksha V
-a=int(input())
-b=int(input())
-bitwise_and = num1 & num2
-bitwise_or = num1 | num2
-bitwise_not_num1 = ~num1
-bitwise_not_num2 = ~num2
-bitwise_xor = num1 ^ num2
-right_shift = num1 >> 1
-left_shift = num2 << 1
+num1 = int(input())
+num2 = int(input())
+
+print(num1 & num2)
+print(num1 | num2)
+print(~num1)
+print(~num2)
+print(num1 ^ num2)
+print(num1 >> 1)
+print(num2 << 1)
 
 
-print("Bitwise AND of num1 and num2:", bitwise_and)
-print("Bitwise OR of num1 and num2:", bitwise_or)
-print("Bitwise NOT of num1:", bitwise_not_num1)
-print("Bitwise NOT of num2:", bitwise_not_num2)
-print("Bitwise XOR of num1 and num2:", bitwise_xor)
-print("Right shift num1 by 1 position:", right_shift)
-print("Left shift num2 by 1 position:", left_shift)
 ```
 
 
