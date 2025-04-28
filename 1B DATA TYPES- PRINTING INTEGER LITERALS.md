@@ -11,12 +11,14 @@ Print both the entered string and integer.
 End the program.
 
 ## PROGRAM
-
+```python
 # Reg.No-212223020020
 # Name-Pradaksha V
 a=int(input())
 b=str(input())
 print(a,b)
+```
+
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/01a2173e-ff26-4a6b-8042-16376f3cc1ef)
