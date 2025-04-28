@@ -11,15 +11,16 @@ Display the result.
 
 End the program.
 ## PROGRAM
-#REG NO:212223020020
-#NAME:PRADAKSHA V
-
+python
+# Reg.No-212223020020
+# Name-Pradaksha V
 a=eval(input())
 b=eval(input())
 c=a+b
 print("A is",a)
 print("B is",b)
 print("Sum is",c)
+
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/ae851983-bf06-4ad0-bc9d-6410d59f7c9a)
