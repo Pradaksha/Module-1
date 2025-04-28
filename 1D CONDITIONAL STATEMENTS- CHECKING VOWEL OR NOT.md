@@ -12,6 +12,7 @@ If false, do nothing (or simply end the program).
 End the program.
 ## PROGRAM
 
+```python
 # Reg.No-212223020020
 # Name-Pradaksha V
 temperature = int(input())
@@ -19,6 +20,8 @@ if temperature > 97:
        print("The person has fever")
 else:
      print(" ")
+       
+```
        
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/7ae1ae37-f287-4c04-b0de-08c768b3cca7)
