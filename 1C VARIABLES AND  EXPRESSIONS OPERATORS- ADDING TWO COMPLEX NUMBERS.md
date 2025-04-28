@@ -13,12 +13,14 @@ Print the calculated distance.
 End the program.
 
 ## PROGRAM
+```python
 # Reg.No-212223020020
-#Name-Pradaksha V
+# Name-Pradaksha V
 time=float(input())
 speed=float(input())
 dist=time*speed
 print("Distance covered is {:.2f}km".format(dist))
+```
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/decccdd4-02ba-4a8a-a7e9-6038820bb458)
