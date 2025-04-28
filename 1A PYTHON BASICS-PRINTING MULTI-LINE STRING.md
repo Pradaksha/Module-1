@@ -11,15 +11,18 @@ Display the result.
 
 End the program.
 ## PROGRAM
-python
+```python
 # Reg.No-212223020020
 # Name-Pradaksha V
+# Write your code here
 a=eval(input())
 b=eval(input())
 c=a+b
 print("A is",a)
 print("B is",b)
 print("Sum is",c)
+
+```
 
 
 ## OUTPUT
