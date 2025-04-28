@@ -6,9 +6,13 @@ To write a Python program to read one string and one integer from the user and p
 ## ALGORITHM  
 
 1.Start the program.
+
 2.Prompt the user to input a string.
+
 3.Prompt the user to input an integer (using type conversion).
+
 4.Print both the entered string and integer.
+
 5.End the program.
 
 ## PROGRAM
