@@ -17,6 +17,7 @@ Display all the results.
 End the program.
 
 ## PROGRAM
+```python
 # Reg.No-212223020020
 # Name-Pradaksha V
 a=int(input())
@@ -37,6 +38,8 @@ print("Bitwise NOT of num2:", bitwise_not_num2)
 print("Bitwise XOR of num1 and num2:", bitwise_xor)
 print("Right shift num1 by 1 position:", right_shift)
 print("Left shift num2 by 1 position:", left_shift)
+```
+
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/484a3525-aa39-409f-bff9-d52a2cd5d250)
